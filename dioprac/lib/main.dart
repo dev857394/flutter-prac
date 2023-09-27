@@ -26,6 +26,8 @@ class _MyAppState extends State<MyApp> {
 
   // Dio
   void getDataUsingDio() async {
+    //dio.get type은 future
+    //future type은 await과 같이 써야함
     var res = await dio.get(
       'https://sniperfactory.com/sfac/http_only_jwt_included',
       'https://sniperfactory.com/sfac/http_json_data',
