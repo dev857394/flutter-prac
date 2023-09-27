@@ -27,16 +27,15 @@ class _MyAppState extends State<MyApp> {
   // Dio
   void getDataUsingDio() async {
     var res = await dio.get(
-      // 'https://sniperfactory.com/sfac/http_only_jwt_included',
+      'https://sniperfactory.com/sfac/http_only_jwt_included',
       'https://sniperfactory.com/sfac/http_json_data',
-
-      // options: Options(
-      //   headers: {
-      //     'user-agent':
-      //         'Chrome', // 사용자가 접속한 브라우저가 무엇인지 알고 있을 때, 크롤링 봇을 막을때 유용하게 사용(하지만 user-agent를 설정하면 무효화 가능)
-      //     'authorization': 'Bearer ey-12312312312312',
-      //   },
-      // ),
+      options: Options(
+        headers: {
+          'user-agent':
+              'Chrome', // 사용자가 접속한 브라우저가 무엇인지 알고 있을 때, 크롤링 봇을 막을때 유용하게 사용(하지만 user-agent를 설정하면 무효화 가능)
+          'authorization': 'Bearer ey-12312312312312',
+        },
+      ),
     );
 
     print(res);
