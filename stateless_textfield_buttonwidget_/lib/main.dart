@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  // runApp(const MyApp());
-  runApp(const MyStatefulApp());
+  runApp(const MyApp());
 
-  // print("hello");
+  print("hello");
 
-  // CustomFunctions cf = CustomFunctions();
-  // cf.printWelcomeMsg();
-  // print(cf.getMyAge());
-  // print(cf.getMyNickname());
-  // print(cf.getMyFollower());
-  // print(cf.getMyNickname());
-  // var isFollowed = cf.tryFollow();
-  // print(isFollowed);
-  // var myFollowers = cf.getMyFollowers();
-  // print(myFollowers);
-  // cf.printWelcomeMsg2('Hyerim');
+  CustomFunctions cf = CustomFunctions();
+  cf.printWelcomeMsg();
+  print(cf.getMyAge());
+  print(cf.getMyNickname());
+  print(cf.getMyFollower());
+  print(cf.getMyNickname());
+  var isFollowed = cf.tryFollow();
+  print(isFollowed);
+  var myFollowers = cf.getMyFollowers();
+  print(myFollowers);
+  cf.printWelcomeMsg2('Hyerim');
 }
 
 class CustomFunctions {
@@ -263,7 +262,6 @@ class MyApp extends StatelessWidget {
       ),
     );
 
-    print('나 그림그리고 있다');
     var statelessAndStatefulWidget = MaterialApp(
       home: Scaffold(
         appBar: AppBar(
@@ -295,59 +293,5 @@ class MyApp extends StatelessWidget {
     );
 
     return statelessAndStatefulWidget;
-  }
-}
-
-//stateful widget
-//- 스스로 상태가 있다
-// - 스스로 한번
-class MyStatefulApp extends StatefulWidget {
-  const MyStatefulApp({super.key});
-
-  @override
-  State<MyStatefulApp> createState() => _MyStatefulAppState();
-}
-
-class _MyStatefulAppState extends State<MyStatefulApp> {
-  //처음 빌드 될때는 변수가 안녕
-  String message = "반가워";
-  int level = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    var statefulWidgetPrac = MaterialApp(
-      home: Scaffold(
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            message = "반가워";
-            //
-            setState(() {});
-          },
-          child: Icon(
-            Icons.change_circle,
-          ),
-        ),
-        body: Center(
-          child: Text(message),
-        ),
-      ),
-    );
-
-    var levelUpStatefulWidgetPrac = MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: InkWell(
-            onTap: () {
-              level += 1;
-              setState(() {});
-            },
-            child: Text('현재 $level 레벨입니다.'),
-          ),
-        ),
-      ),
-    );
-
-    return levelUpStatefulWidgetPrac;
   }
 }
