@@ -65,23 +65,24 @@ class MyApp extends StatelessWidget {
                 Text('10개월 간의 수학 점수'),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  // children: mathScore.map(
-                  //   (e) {
-                  //     return Container(
-                  //       width: e * 2,
-                  //       height: 24,
-                  //       margin: const EdgeInsets.all(16),
-                  //       decoration: BoxDecoration(
-                  //         gradient: LinearGradient(
-                  //           colors: [
-                  //             Colors.greenAccent,
-                  //             Colors.white,
-                  //           ],
-                  //         ),
-                  //       ),
-                  //     );
-                  //   },
-                  // ).toList(),
+                  // return 방식
+                  children: mathScore.map(
+                    (e) {
+                      return Container(
+                        width: e * 2,
+                        height: 24,
+                        margin: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            colors: [
+                              Colors.greenAccent,
+                              Colors.white,
+                            ],
+                          ),
+                        ),
+                      );
+                    },
+                  ).toList(),
 
                   //expression body
                   children: mathScore
@@ -120,43 +121,43 @@ class MyApp extends StatelessWidget {
                 Text('10개월 간의 수학 점수'),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  // children: mathScore.map(
-                  //   (e) {
-                  //     return Container(
-                  //       width: e * 2,
-                  //       height: 24,
-                  //       margin: const EdgeInsets.all(16),
-                  //       decoration: BoxDecoration(
-                  //         gradient: LinearGradient(
-                  //           colors: [
-                  //             Colors.greenAccent,
-                  //             Colors.white,
-                  //           ],
-                  //         ),
-                  //       ),
-                  //     );
-                  //   },
-                  // ).toList(),
+                  children: mathScore.map(
+                    (e) {
+                      return Container(
+                        width: e * 2,
+                        height: 24,
+                        margin: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            colors: [
+                              Colors.greenAccent,
+                              Colors.white,
+                            ],
+                          ),
+                        ),
+                      );
+                    },
+                  ).toList(),
 
                   //where로 조건 걸기
-                  // children: mathScore
-                  //     .where((element) => element > 90)
-                  //     .map(
-                  //       (e) => Container(
-                  //         width: e * 2,
-                  //         height: 24,
-                  //         margin: const EdgeInsets.all(16),
-                  //         decoration: BoxDecoration(
-                  //           gradient: LinearGradient(
-                  //             colors: [
-                  //               Colors.greenAccent,
-                  //               Colors.white,
-                  //             ],
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     )
-                  //     .toList(),
+                  children: mathScore
+                      .where((element) => element > 90)
+                      .map(
+                        (e) => Container(
+                          width: e * 2,
+                          height: 24,
+                          margin: const EdgeInsets.all(16),
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              colors: [
+                                Colors.greenAccent,
+                                Colors.white,
+                              ],
+                            ),
+                          ),
+                        ),
+                      )
+                      .toList(),
 
                   children: myfriends
                       .where((element) => element.length == 5)
