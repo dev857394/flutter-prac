@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  // runApp(const CheckboxAndVisibilityWidgetPrac());
 }
 
 class MyApp extends StatelessWidget {
@@ -47,12 +46,12 @@ class MyApp extends StatelessWidget {
                 },
                 child: Text('login'),
               ),
-              // TextButton(
-              //   onPressed: () {
-              //     print(myController.text);
-              //   },
-              //   child: Text('Hit me'),
-              // ),
+              TextButton(
+                onPressed: () {
+                  print(myController.text);
+                },
+                child: Text('Hit me'),
+              ),
             ],
           ),
         ),
@@ -380,54 +379,6 @@ class IfPrac2 extends StatelessWidget {
               ),
               Text('안녕하세요'),
             ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class CheckboxAndVisibilityWidgetPrac extends StatefulWidget {
-  const CheckboxAndVisibilityWidgetPrac({super.key});
-
-  @override
-  State<CheckboxAndVisibilityWidgetPrac> createState() =>
-      _CheckboxAndVisibilityWidgetPracState();
-}
-
-// 체크박스 and visibility 위젯
-class _CheckboxAndVisibilityWidgetPracState
-    extends State<CheckboxAndVisibilityWidgetPrac> {
-  var isChecked = false;
-  var isLogined = true;
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: SafeArea(
-          child: Center(
-            //visibillity
-            //if 대신 사용가능
-            child: Column(
-              children: [
-                Text('안녕하세요'),
-                Visibility(
-                  visible: false,
-                  child: Text('당신은 회원입니다'),
-                ),
-                Text('반가워요')
-              ],
-            ),
-
-            //checkbox
-            // child: Checkbox(
-            //   value: isChecked,
-            //   onChanged: (value) {
-            //     isChecked = value!;
-            //     setState(() {}); //체크박스 항상 stateful widget+setstate로 이용
-            //   },
-            // ),
           ),
         ),
       ),
