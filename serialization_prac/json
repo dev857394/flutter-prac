@@ -1,0 +1,228 @@
+{
+    "data": [
+        {
+            "_id": "65264652015b79b54d9d85a8",
+            "name": "창조적 시선",
+            "age": "김정운",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/Z8vdK3PjN95p.jpg",
+            "publisher": "아르테",
+            "rate": 108000,
+            "price": 9.86,
+            "createdAt": 1697007186916,
+            "updatedAt": 1697007323288
+        },
+        {
+            "_id": "65264621015b79b54d9d8554",
+            "name": "마음이 아니고 뇌가 불안한 겁니다",
+            "age": "다니엘 G.에이멘",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/a0BMDCpA4AYE.jpg",
+            "publisher": "위즈덤하우스",
+            "rate": 18800,
+            "price": 9.74,
+            "createdAt": 1697007137410,
+            "updatedAt": 1697007185782
+        },
+        {
+            "_id": "652645ff015b79b54d9d84eb",
+            "name": "내가 틀릴 수도 있습니다",
+            "age": "비욘 나티코 린데블라드",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/LPGsyhGkmH7x.jpg",
+            "publisher": "다산초당",
+            "rate": 16000,
+            "price": 9.58,
+            "createdAt": 1697007103637,
+            "updatedAt": 1697007137341
+        },
+        {
+            "_id": "652645e7015b79b54d9d848d",
+            "name": "명상록",
+            "age": "마르쿠스 아우렐리우스",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/yiBhTKubkoS7.jpg",
+            "publisher": "현대지성",
+            "rate": 12000,
+            "price": 9.66,
+            "createdAt": 1697007079720,
+            "updatedAt": 1697007103640
+        },
+        {
+            "_id": "652645d4015b79b54d9d843b",
+            "name": "내 문장이 그렇게 이상한가요?",
+            "age": "김정선",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/NHTUYMZD7f5Z.jpg",
+            "publisher": "유유",
+            "rate": 14000,
+            "price": 9.43,
+            "createdAt": 1697007060337,
+            "updatedAt": 1697007079718
+        },
+        {
+            "_id": "652645c1015b79b54d9d8415",
+            "name": "공정하다는 착각",
+            "age": "마이클 샌델",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/ur5DjOCvfHVi.jpg",
+            "publisher": "와이즈베리",
+            "rate": 18000,
+            "price": 9.39,
+            "createdAt": 1697007041288,
+            "updatedAt": 1697007059354
+        },
+        {
+            "_id": "65264575015b79b54d9d83ba",
+            "name": "공부하고 있다는 착각",
+            "age": "대니얼 T.윌링햄",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/hep3MumQ9VMS.jpg",
+            "publisher": "웅진지식하우스",
+            "rate": 19800,
+            "price": 9.53,
+            "createdAt": 1697006965445,
+            "updatedAt": 1697007041251
+        },
+        {
+            "_id": "65264560015b79b54d9d838f",
+            "name": "알아차림에 대한 알아차림",
+            "age": "루퍼트 스파이라",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/KhjVKHDM1sNA.jpg",
+            "publisher": "퍼블리온",
+            "rate": 18000,
+            "price": 9.57,
+            "createdAt": 1697006944992,
+            "updatedAt": 1697006964528
+        },
+        {
+            "_id": "65264541015b79b54d9d833c",
+            "name": "피로사회",
+            "age": "한병철",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/xp9lRBqBD448.jpg",
+            "publisher": "문학과지성사",
+            "rate": 12000,
+            "price": 9.25,
+            "createdAt": 1697006913972,
+            "updatedAt": 1697006944920
+        },
+        {
+            "_id": "6526452b015b79b54d9d8326",
+            "name": "소유나 존재냐",
+            "age": "에리히 프롬",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/Azsvpzw4wiNK.jpg",
+            "publisher": "까치",
+            "rate": 12000,
+            "price": 9.66,
+            "createdAt": 1697006891764,
+            "updatedAt": 1697006937431
+        },
+        {
+            "_id": "65264513015b79b54d9d831c",
+            "name": "아침에는 죽음을 생각하는 것이 좋다",
+            "age": "김영민",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/wGEHpOTLyX4c.jpg",
+            "publisher": "어크로스",
+            "rate": 18500,
+            "price": 9.75,
+            "createdAt": 1697006867261,
+            "updatedAt": 1697006891696
+        },
+        {
+            "_id": "652644f82b6917ef0c14ff57",
+            "name": "소크라테스 익스프레스",
+            "age": "에릭 와이너",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/h090x7g3RAFU.jpg",
+            "publisher": "어크로스",
+            "rate": 18000,
+            "price": 9.61,
+            "createdAt": 1697006840255,
+            "updatedAt": 1697007909975
+        },
+        {
+            "_id": "652644c82b6917ef0c14feff",
+            "name": "나는 왜 사랑할수록 불안해질까",
+            "age": "제시카 바움",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/6hcGmfIQy0tL.jpg",
+            "publisher": "부키",
+            "rate": 18000,
+            "price": 9.9,
+            "createdAt": 1697006792288,
+            "updatedAt": 1697006840187
+        },
+        {
+            "_id": "652644b02b6917ef0c14fedb",
+            "name": "마흔에 읽는 니체",
+            "age": "장재형",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/iQLwZhi2q6qL.jpg",
+            "publisher": "유노북스",
+            "rate": 16000,
+            "price": 9.62,
+            "createdAt": 1697006768572,
+            "updatedAt": 1697006804792
+        },
+        {
+            "_id": "652644992b6917ef0c14feb0",
+            "name": "상처 받지 않는 영혼",
+            "age": "마이클 A.싱어",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/K4Hx5eugomkD.jpg",
+            "publisher": "라이팅하우스",
+            "rate": 16000,
+            "price": 9.62,
+            "createdAt": 1697006745925,
+            "updatedAt": 1697006807400
+        },
+        {
+            "_id": "652644022b6917ef0c14fe4c",
+            "name": "행복의 기원",
+            "age": "서은국",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/RSPZrFgkLwjF.jpg",
+            "publisher": "21세기북스",
+            "rate": 18000,
+            "price": 9.68,
+            "createdAt": 1697006594136,
+            "updatedAt": 1697006811593
+        },
+        {
+            "_id": "652643e82b6917ef0c14fe3c",
+            "name": "파리의 심리학 카페",
+            "age": "모드 르안",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/u95uoZjfj3aQ.jpg",
+            "publisher": "클랩북스",
+            "rate": 17000,
+            "price": 9.94,
+            "createdAt": 1697006568104,
+            "updatedAt": 1697006716553
+        },
+        {
+            "_id": "652643c82b6917ef0c14fe00",
+            "name": "어른을 키우는 어른을 위한 심리학",
+            "age": "하지현",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/zh3wanZ6gCgq.jpg",
+            "publisher": "은행나무",
+            "rate": 18000,
+            "price": 10,
+            "createdAt": 1697006536163,
+            "updatedAt": 1697006616518
+        },
+        {
+            "_id": "652643802b6917ef0c14fdb3",
+            "name": "정의란 무엇인가",
+            "age": "마이클 샌델",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/ZEOVloJIWyAE.jpg",
+            "publisher": "와이즈베리",
+            "rate": 15000,
+            "price": 9.57,
+            "createdAt": 1697006464881,
+            "updatedAt": 1697006611946
+        },
+        {
+            "_id": "65263e952b6917ef0c14f542",
+            "attachment": "https://img.tablecdn.com/PMkGApvVNScu/bvqSKDcSLgow.jpg",
+            "age": "대니얼 J.레비틴",
+            "name": "정리하는 뇌",
+            "createdAt": 1697005205373,
+            "updatedAt": 1697006607476,
+            "id": 1,
+            "publisher": "와이즈베리",
+            "rate": 22000,
+            "price": 9.28
+        }
+    ],
+    "page": 1,
+    "count": 20,
+    "perPage": 100
+}
